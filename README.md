@@ -1,6 +1,6 @@
 # Quasar App (front)
 
-A Resturation Application Front app
+A Restauration Application Front app
 
 ## Install the dependencies
 
