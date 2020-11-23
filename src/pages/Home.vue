@@ -51,7 +51,7 @@
                     {{ resto.nom_restaurant.toUpperCase() }}
                   </p>
                   <p>
-                    <q-icon name="alternate_email" size="md" class="q-mr-md" />
+                    <q-icon name="map" size="md" class="q-mr-md" />
                     {{ resto.adress }}
                   </p>
                   <p class="text-bold">

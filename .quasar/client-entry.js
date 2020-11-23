@@ -42,12 +42,6 @@ import qboot_Bootcompositionapi from 'boot/composition-api'
 
 
 
-Vue.config.devtools = true
-Vue.config.productionTip = false
-
-
-
-console.info('[Quasar] Running SPA.')
 
 
 

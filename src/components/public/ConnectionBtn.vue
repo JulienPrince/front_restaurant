@@ -20,6 +20,7 @@
       class="q-mr-md text-primary"
     />
     <q-btn
+      to="/admin"
       icon="settings"
       round
       v-if="session.role === 'restaurateur'"

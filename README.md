@@ -32,3 +32,4 @@ quasar build
 - gestion de role
 - commentaire
 - reservation
+- recherch
