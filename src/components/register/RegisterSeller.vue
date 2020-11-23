@@ -1,13 +1,18 @@
 <template>
   <div class="row">
-    <div class="col ">
+    <div class="col" style="height: 100vh;">
       <q-img
-        src="~/assets/restaurant2.jpg"
+        src="https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w, https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 1260w, https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w, https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w"
         style="height: 100%; max-width: 100%"
       />
     </div>
-    <div class="col row">
-      <q-card square bordered class="q-pa-lg shadow-1" style="margin: auto">
+    <div class="col row" style="height: 100vh; margin: 20px">
+      <q-card
+        square
+        bordered
+        class="q-pa-lg shadow-1"
+        style="margin: auto; width: 75%"
+      >
         <q-card-section class="row justify-center">
           <q-btn
             icon="restaurant"
@@ -57,7 +62,7 @@
                   v-model.number="form.minPrice"
                   type="number"
                   filled
-                  style="max-width: 200px"
+                  style=""
                   prefix="Ar"
                   label="prix min"
                   :min="0"
@@ -66,7 +71,7 @@
                   v-model.number="form.maxPrice"
                   type="number"
                   filled
-                  style="max-width: 200px"
+                  style=""
                   prefix="Ar"
                   label="prix max"
                   :min="0"
@@ -94,7 +99,7 @@
                   </q-img>
                   <q-img
                     v-else
-                    src="~/assets/restaurant3.jpg"
+                    src="https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w, https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 1260w, https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w, https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w"
                     basic
                     alt="P"
                     style="width: 125px; height: 125px;"

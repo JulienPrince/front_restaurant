@@ -26,4 +26,9 @@ yarn run lint
 quasar build
 ```
 
-### Customize the configuration
+### functionaliter
+
+- Authentification (client simple et restaurateur)
+- gestion de role
+- commentaire
+- reservation

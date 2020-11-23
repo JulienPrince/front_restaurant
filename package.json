@@ -2,7 +2,7 @@
   "name": "front",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "productName": "Restaurant app",
   "author": "Prince",
   "private": true,
   "scripts": {
