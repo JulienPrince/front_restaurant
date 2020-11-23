@@ -26,7 +26,7 @@ yarn run lint
 quasar build
 ```
 
-### functionaliter
+### fonctionnaliter
 
 - Authentification (client simple et restaurateur)
 - gestion de role
